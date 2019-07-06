@@ -52,7 +52,7 @@ var get_info_video = function() {
 
   var xhr = new XMLHttpRequest();
 
-  xhr.open("GET", "http://www.youtube.com/get_video_info?video_id=" + video_id, true);
+  xhr.open("GET", "https://www.youtube.com/get_video_info?video_id=" + video_id, true);
   xhr.send();
 
   xhr.onreadystatechange = function() {
